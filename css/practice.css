@@ -56,3 +56,24 @@ border:10px solid teal;
    text-align: center;
    width: 80%;
 }
+.single-item-style{
+   margin-bottom: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.single-item-style img{
+    border:2px solid steelblue;
+}
+.single-item-style button{
+    padding: 10px 20px;
+    color: teal;
+    background-color: black;
+    font-size: large;
+    font-weight: bolder;
+}
+.single-item-style button:hover{
+    background-color: darkkhaki;
+}
