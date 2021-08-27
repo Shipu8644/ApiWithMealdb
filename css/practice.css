@@ -8,6 +8,7 @@ h1{
 .write{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 #search-btn{
 font-size: large;
@@ -34,4 +35,24 @@ transition: all 0.5s ease;
 }
 #input:hover{
 border:10px solid teal;
+}
+
+.sectionStyle{
+    width: 90%;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-column-gap: 20px;
+   grid-row-gap: 10px;
+   background-color: rgba(0,0,0);
+   margin: auto;
+
+}
+.sectionStyle img{
+    width: 300px;
+    border: 2px solid white;
+}
+.container h3{
+   color: white;
+   text-align: center;
+   width: 80%;
 }
