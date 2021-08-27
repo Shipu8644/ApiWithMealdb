@@ -14,7 +14,7 @@ font-size: large;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: bolder;
 padding: 0px 30px;
-transition: all 2s ease;
+transition: all 5s ease;
 border: 5px solid black;
 border-radius: 5px;
 }
@@ -24,10 +24,14 @@ border-radius: 5px;
     transform: translate(50px) scale(1.5);
 }
 #input{
-    background-color:black;
-    font-size: xx-large;
-    font-weight: bold;
-    color: white;
-    height: 3rem; 
-    border: 5px solid gray;
+background-color:black;
+font-size: xx-large;
+font-weight: bold;
+color: white;
+height: 3rem; 
+border: 5px solid gray;
+transition: all 0.5s ease;
+}
+#input:hover{
+border:10px solid teal;
 }
