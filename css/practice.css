@@ -1,0 +1,33 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: aqua;
+}
+
+.write{
+    display: flex;
+    justify-content: center;
+}
+#search-btn{
+font-size: large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bolder;
+padding: 0px 30px;
+transition: all 2s ease;
+border: 5px solid black;
+border-radius: 5px;
+}
+#search-btn:hover{
+    background-color: teal;
+    color: white;
+    transform: translate(50px) scale(1.5);
+}
+#input{
+    background-color:black;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    height: 3rem; 
+    border: 5px solid gray;
+}
